@@ -1,0 +1,21 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 1px solid #eaeaea;
+    width: 100%;
+  }
+  
+  .footer.transparent {
+    background-color: transparent;
+    color: white;
+    border-top: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  

@@ -1,0 +1,138 @@
+/* src/pages/ProductPage.css */
+
+.uniqlo-product-page {
+    display: flex;
+    gap: 3rem;
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .left-gallery {
+    flex: 1;
+  }
+  
+  .main-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .thumbnail-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .thumbnail-row img {
+    width: 70px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .right-details {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .right-details h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .color-section,
+  .size-section {
+    margin: 1rem 0;
+  }
+  
+  .colors {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  .color-dot {
+    width: 24px;
+    height: 24px;
+    border-radius: 999px;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .color-dot.beige { background-color: #d8c6a1; }
+  .color-dot.gray { background-color: #aaa; }
+  .color-dot.black { background-color: #222; }
+  
+  .color-dot.active {
+    border: 2px solid #000;
+  }
+  
+  .size-boxes {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  .size-btn {
+    border: 1px solid #999;
+    padding: 6px 12px;
+    cursor: pointer;
+    background: white;
+  }
+  
+  .size-btn.selected {
+    border: 2px solid #000;
+    font-weight: bold;
+  }
+  
+  .price {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 1rem 0 0.3rem;
+  }
+  
+  .subtext {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  .quantity-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 1rem 0;
+  }
+  
+  .quantity-row button {
+    font-size: 1.2rem;
+    padding: 5px 12px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: white;
+  }
+  
+  .add-btn {
+    background: black;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .add-btn:hover {
+    background: #222;
+  }
+  
+  .stock-msg {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .store-status {
+    font-size: 0.9rem;
+    color: #444;
+  }
+  

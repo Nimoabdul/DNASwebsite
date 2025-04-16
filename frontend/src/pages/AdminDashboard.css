@@ -1,0 +1,152 @@
+.admin-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-header h1 {
+    font-size: 2.5rem;
+    color: #4361ee;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .admin-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  @media (min-width: 992px) {
+    .admin-main {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+  
+  .admin-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #4361ee;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .admin-field {
+    margin-bottom: 20px;
+  }
+  
+  .admin-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .admin-field input,
+  .admin-field textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .admin-file-upload input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px dashed #ccc;
+    border-radius: 6px;
+  }
+  
+  .admin-image-preview img {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .admin-btn {
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .admin-btn.primary {
+    background-color: #4361ee;
+    color: white;
+  }
+  
+  .admin-btn.edit {
+    background-color: #4895ef;
+    color: white;
+  }
+  
+  .admin-btn.delete {
+    background-color: #f72585;
+    color: white;
+  }
+  
+  .admin-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .admin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .admin-card-product {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: 0.2s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-product-img {
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .admin-product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .admin-product-info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-price {
+    font-weight: bold;
+    color: #4361ee;
+    margin: 5px 0;
+  }
+  
+  .admin-category {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .admin-product-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
